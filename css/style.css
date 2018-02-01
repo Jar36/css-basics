@@ -36,6 +36,12 @@ section {
   width: 60%;
 }
 
+/* ******* Section Styles for last three elements in section ******* */
+
+section div:nth-last-child(-n+3) {
+  background: goldenrod;
+}
+
 /* ******* Element Styles ******* */
 
 .element {
